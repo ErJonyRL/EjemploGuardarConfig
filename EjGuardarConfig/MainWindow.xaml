@@ -1,0 +1,17 @@
+﻿<Window x:Class="EjGuardarConfig.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjGuardarConfig"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Text="Valor de configuración clásico:" Margin="0 0 0 5"/>
+            <TextBox x:Name="TextoValorConfiguracion" IsReadOnly="True" Margin="0 0 0 10"/>
+            <TextBlock Text="Valor del App.config:" Margin="0 0 0 5"/>
+            <TextBox x:Name="TextoValorAppConfig" IsReadOnly="True"/>
+        </StackPanel>
+    </Grid>
+</Window>
